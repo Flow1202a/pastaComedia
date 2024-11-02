@@ -13,9 +13,11 @@ $(function() {
 
             if ($(this).scrollTop() > 10){  
                 $('#header').addClass("sticky");
+                $('#header .navbar-brand img').attr('src', 'images/header-logo-blanc.png');
             }
             else{
                 $('#header').removeClass("sticky");
+                $('#header .navbar-brand img').attr('src', 'images/header-logo.png');
             }
         });
 

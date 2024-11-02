@@ -32,7 +32,11 @@
 	.chef-bottom-bg {bottom: -310px;}
 }
 
-
+@media (max-width: 150px) {
+	img[alt="pizzon"] {
+		color: white; /* Changer la couleur à rouge */
+	}
+}
 @media(max-width: 1600px){
 
 	/*_______________________________________________________
